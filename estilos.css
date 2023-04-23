@@ -1,0 +1,47 @@
+#Ponlo{
+    color: rgb(255, 56, 92) !important;
+}
+#ImgAirCover{
+    width: 200px !important; 
+    height: 70px !important;
+}
+#imagenMapa{
+    width: 580px !important; 
+    height: 580px !important;
+    border-radius: 2%;
+}
+h1{
+    font-size: 32px !important;
+}
+h2{
+    font-size: 20px !important;
+    font-weight: bold;
+    color: #111111;
+}
+a{
+    color: #111111;
+    font-weight: bold;
+}
+.XorY{
+    width: 40px !important; 
+    height: 40px !important;
+}
+.fondoNavBar{
+    background-color: rgb(217, 8, 101) !important;
+}
+@media screen and (max-width: 1200px) { 
+    #imagenMapa{
+        /* height: 27rem;
+        max-width: 100%; */
+        width: 90% !important;
+        height: auto !important;
+    }
+}
+@media screen and (max-width: 1200px) { 
+    img{
+        /* height: 27rem;
+        max-width: 100%; */
+        width: 100% !important;
+        height: auto !important;
+    }
+}
